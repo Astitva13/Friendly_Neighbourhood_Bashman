@@ -1,7 +1,7 @@
------------------------------------
-----------Astitva Gupta------------
-------------2018101085-------------
------------------------------------
+INSTRUCTIONS/STEPS:
+	-> Either use 'make' command or use "gcc bash.c"
+	-> Run "./a.out"
+	-> Enjoy the terminal :D
 
 1. Display requirement:
 
