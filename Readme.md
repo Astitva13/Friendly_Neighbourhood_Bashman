@@ -1,4 +1,5 @@
 INSTRUCTIONS/STEPS:
+
 	-> Either use 'make' command or use "gcc bash.c"
 	-> Run "./a.out"
 	-> Enjoy the terminal :D
