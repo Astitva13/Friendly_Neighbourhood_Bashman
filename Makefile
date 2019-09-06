@@ -1,0 +1,2 @@
+all:
+	gcc bash.c
