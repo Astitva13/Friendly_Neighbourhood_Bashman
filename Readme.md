@@ -1,3 +1,4 @@
+#Repository README
 __INSTRUCTIONS/STEPS:__
 
 	> Either use 'make' command or use "gcc bash.c"
