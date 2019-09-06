@@ -20,8 +20,8 @@ __USAGES:__
 
 3. ls command:
 
-	>used 'strtok' to get arguments
-	>used 'opendir' to open a directory using 'while' loop
+	-used 'strtok' to get arguments
+	-used 'opendir' to open a directory using 'while' loop
 	>used 'stat' command to get file info
 	>used 'printf' to display details
 
