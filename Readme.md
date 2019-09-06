@@ -1,8 +1,10 @@
-INSTRUCTIONS/STEPS:
+__INSTRUCTIONS/STEPS:__
 
 	-> Either use 'make' command or use "gcc bash.c"
 	-> Run "./a.out"
 	-> Enjoy the terminal :D
+
+__USAGES:__
 
 1. Display requirement:
 
