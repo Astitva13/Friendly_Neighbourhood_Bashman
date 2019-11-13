@@ -21,7 +21,8 @@ void cmd_fg()
 		st=1;
 	} 
 	else{  
-		if (wait(&status) <= 0 || st==1) perror(args[0]);
+		currfg = pid;
+		if (waitpid(-1,&status,WUNTRACED) <= 0 || st==1) perror(args[0]);
 	} 
 	stx=1;
 	strcpy(s,s_save);

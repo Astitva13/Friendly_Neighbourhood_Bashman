@@ -1,4 +1,4 @@
-#include "cmd_cd.h"
+#include "headerFiles.h"
 void cmd_cd(){
 	char tempdir[10000];
 	strcpy(tempdir,currdir);
@@ -41,6 +41,5 @@ void cmd_cd(){
 	{
 		strcpy(prevdir,tempdir);
 	}
-	char s[10000];
 	strcpy(s,s_save);
 }

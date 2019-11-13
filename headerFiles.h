@@ -14,8 +14,9 @@
 #include <time.h>
 #define buff_size 1000000
 
+extern int numproc;
 extern int idx;
-extern int counter;
+extern pid_t currfg;
 extern int pidarr[10000];
 extern int pidctr[10000];
 extern char pidcmd[10000][100];
@@ -27,8 +28,9 @@ extern char currdir[10000];
 extern char prevdir[10000];
 extern char* name;
 extern int stx;
+extern int h[10];
 extern int fl_a,fl_l,fl_dir,ctdir;
 extern struct stat fileStat;
 
 
-extern void truncatedir(char * name);
+void truncatedir(char * name);

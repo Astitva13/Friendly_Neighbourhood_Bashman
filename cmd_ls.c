@@ -59,7 +59,7 @@ void cmd_ls()
 			{
 				d = opendir(currdir);
 				struct dirent *dir;
-				if (d)
+				if (d>0)
 				{
 					while ((dir = readdir(d)) != NULL)
 					{

@@ -26,8 +26,8 @@ void cmd_watch()
 				execvp(args[0],args); 
 				st=1;
 			} 
-			else{  
-				if (wait(&status) <= 0 || st==1) perror(args[0]);
+			else{
+				if (wait(&status) <= 0 || st==1) {perror(args[0]);}
 			} 
 		}
 		else if(strcmp(args[i-1],"interrupt")==0)
@@ -45,7 +45,7 @@ void cmd_watch()
 				st=1;
 			} 
 			else{  
-				if (wait(&status) <= 0 || st==1) perror(args[0]);
+				if (wait(&status) <= 0 || st==1) {perror(args[0]);}
 			} 
 		}
 		else
@@ -56,4 +56,6 @@ void cmd_watch()
 			return;
 		}
 	}
+	strcpy(s,s_save);
+	return;
 }
